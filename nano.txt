@@ -1,0 +1,46 @@
+Na parte inferior da janela, você pode encontrar atalhos para usar com o editor Nano. O “^” (acento circunflexo) significa que você deve pressionar CTRL (Windows) ou contropara usar o comando escolhido. Aqui estão alguns exemplos:
+
+Pressione CTRL + O para salvar as alterações feitas no arquivo e continuar editando.
+Para sair do editor, pressione CTRL + X. Se tiverem sido promovidas quaisquer mudanças, o programa vai perguntar se você quer salvá-las ou não. Aperte Y para Sim ou N para Não, e então pressione Enter. Mas se não tiverem alterações, você irá sair do editor imediatamente.
+Tome nota que sempre que você vai abrir um arquivo de configuração importante, é recomendado usar a opção -w. Ela vai abrir o arquivo num formato padrão. Se você não usar essa opção, o Nano vai definir a quebra de texto para preencher a tela por padrão. O comando ficará assim:
+
+Como Buscar e Substituir Texto
+Para realizar buscas no texto, aperte CTRL + W. Insira o seu valor e pressione Enter. Para continuar buscando pela mesma string, use Alt + W.
+
+Se o seu objetivo é encontrar e substituir um texto, pressione CTRL + W e então CTRL + R para inserir o text oque você quer procurar e o texto e vai substitui-lo.
+
+O editor então vai levar você para a primeira ocorrência daquele texto. Você pode apertar Y para selecionar um texto ou A para substituir todas as ocorrências.
+
+Se você quiser voltar depois de digitar um atalho, apenas use CTRL + C para cancelar o processo atual.
+
+Como Editar o Texto
+Esses são os atalhos mais usados quando se edita um texto no Nano.
+
+Para selecionar um texto, vá até o início do texto desejado e aperte ALT + A. Isso vai determinar um marcador para selecionar. Então, você pode movê-lo sobre o texto com as teclas de setas.
+Pressione ALT + 6 para copiar o texto selecionado na área de transferência.
+Para cortar o texto selecionado, aperte CTRL + K.
+Se você quer colar o texto, navegue para o local desejado e pressione CTRL + U.
+
+
+
+Comandos Básicos do Editor de Texto Nano
+Nós compilamos os comandos mais úteis para ajudar você a utilizar o editor de texto Nano e maneira mais efetiva.
+
+Commandos	Funções
+CTRL + A	Ir para o início da linha.
+CTRL + E	Ir para o fim da linha.
+CTRL + Y	Rolar a página para baixo.
+CTRL + V	Rolar a página para cima.
+CTRL + G	Este comando exibirá uma janela de Ajuda com todos os comandos disponíveis
+CTRL + O	Salva o arquivo. O Nano vai perguntar se você quer editar ou verificar o nome de arquivo desejado.
+CTRL + W	Um dos comandos mais úteis. É usado para pesquisar uma frase especificada no seu texto. Ele funciona muito como o costume CTRL + F comando em outros aplicativos e plataformas. Para procurar a mesma frase novamente pressione ALT + W.
+CTRL + K	Corta toda a linha selecionada para o “buffer de corte”.
+CTRL + U	Cola o texto do “buffer de corte” na linha selecionada.
+CTRL + J	Justifica o parágrafo atual.
+CTRL + C	Mostra a posição atual do cursor no texto (linha/coluna/caractere).
+CTRL + X	Sai do editor de texto Nano. Caso você tenha feito alguma alteração no arquivo, ele também solicitará um salvamento adicional.
+CTRL + R	Abra um arquivo com o comando “Ler arquivo”. Insere o arquivo do disco na posição atual do cursor.
+CTRL + \	Substituir uma string ou uma expressão regular.
+CTRL + T	Aciona o verificador ortográfico, se disponível.
+CTRL + _	Vá para o número de linha e coluna especificado.
+ALT + A	Selecionar texto. Primeiro, mova o cursor para o início de uma parte específica do texto que você deseja selecionar e, em seguida, pressione ALT + A. Agora mova o cursor com as setas para a direita, isso vai começar a marcar/selecionar texto. Você pode combinar este comando com CTRL + K para cortar uma parte específica do texto para o “buffer de corte”.

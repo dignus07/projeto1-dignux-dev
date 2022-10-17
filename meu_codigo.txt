@@ -1,3 +1,4 @@
 Olá meu nome é Magnus Teixeira Ribeiro
 também conhecido como Magnanimus
-
+Sou Programador, estou aprendendo Paython
+Já programei em Java e PHP
